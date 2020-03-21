@@ -2,6 +2,34 @@
 
 # 使用
 
+> npm
+
+```bash
+# 初始化
+npm install
+
+# 开发模式
+npm run dev
+
+# 构建
+npm run build
+```
+
+> cnpm
+
+```bash
+# 初始化
+cnpm install
+
+# 开发模式
+cnpm run dev
+
+# 构建
+cnpm run build
+```
+
+> yarn
+
 ```bash
 # 初始化
 yarn
