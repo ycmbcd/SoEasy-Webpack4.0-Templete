@@ -1,5 +1,22 @@
 # SoEasy-Webpack4.0-Templete
 
+# 使用
+
+```bash
+# 初始化
+yarn
+
+# 开发模式
+yarn run dev
+
+# 构建
+yarn run build
+```
+
+# 预览
+
+[Demo](https://ycmbcd.github.io/SoEasy-Webpack4.0-Templete/dist/)
+
 # 说明
 
 一款开箱即用的基于 `Webpack 4.0` 搭建的 `WebApp` 模板。
@@ -47,19 +64,6 @@
 - 打包文件哈希值分配，便于部署更新。
 - 支持热更新「HMR」，默认端口：8080。
 - 默认支持 `favicon.ico` 打包。
-
-# 使用
-
-```bash
-# 初始化
-yarn
-
-# 开发模式
-yarn run dev
-
-# 构建
-yarn run build
-```
 
 # 许可
 MIT License
