@@ -30,17 +30,7 @@ module.exports = merge(common, {
                     }
                 ],
                 include: /src/,
-            },
-            {
-                test: /\.js$/,
-                exclude: /node_modules/,
-                use: {
-                    loader: 'babel-loader',
-                    options: {
-                        cacheDirectory: true,   // 启用缓存，提高打包速度
-                    }
-                }
-            },
+            }
         ]
     },
     plugins: [
