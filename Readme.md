@@ -52,13 +52,34 @@ yarn run build
 > 目录说明
 
 ```bash
-/src/ .......................开发目录
-/src/assets/ ................资源目录
-/dist/ ......................打包输出目录
-/dist/static/css/ ...........打包后css目录
-/dist/static/js/ ............打包后js目录
-/dist/static/images/ ........打包后图片目录
-/node_modules/ ..............包目录
+SoEasy-Webpack4.0-Templete
+├─ .babelrc                     # babel配置文件
+├─ dist                         # 构建目录
+│  ├─ favicon.ico               # 构建后的图标文件
+│  ├─ index.html                # 构建后的主页
+│  └─ static                    # 构建后的静态目录
+│     ├─ css                    # 构建后的样式目录
+│     │  └─ main_021153.css     # 构建后的测试样式文件
+│     ├─ images                 # 构建后的图片目录
+│     │  └─ panda_eb8547.png    # 构建后的测试图片文件
+│     └─ js                     # 构建后的JS目录
+│        ├─ main_056c80.js      # 构建后的JS目录
+│        └─ main_056c80.js.map  # 构建后的JS地图文件
+├─ favicon.ico                  # 图标文件
+├─ index.html                   # 主页
+├─ node_modules                 # 包目录
+├─ package.json                 # 项目文件
+├─ src                          # 开发源码目录
+│  ├─ add.js                    # Demo测试文件
+│  ├─ assets                    # 开发资源目录
+│  │  └─ images                 # 开发图片目录
+│  │     ├─ panda.png           # Demo测试图片
+│  │     └─ phone.jpg           # Demo测试图片
+│  ├─ main.css                  # Demo测试样式
+│  └─ main.js                   # Demo测试JS
+├─ webpack.common.js            # Webpack基础配置文件
+├─ webpack.dev.js               # Webpack开发配置文件
+└─ webpack.prod.js              # Webpack生产配置文件
 ```
 
 # 特色
