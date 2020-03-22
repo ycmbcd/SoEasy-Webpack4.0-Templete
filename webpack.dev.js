@@ -15,7 +15,7 @@ module.exports = merge(common, {
     module: {
         rules: [
             {
-                test: /\.css$/,
+                test: /\.(sc|c|sa)ss$/,
                 use: [
                     'style-loader',
                     'css-loader',
@@ -28,7 +28,8 @@ module.exports = merge(common, {
                                 })
                             ]
                         }
-                    }
+                    },
+                    'sass-loader'
                 ]
             }
         ]

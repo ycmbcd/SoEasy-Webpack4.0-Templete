@@ -27,7 +27,8 @@ module.exports = merge(common, {
                                 })
                             ]
                         }
-                    }
+                    },
+                    'sass-loader'
                 ],
                 include: /src/,
             }
