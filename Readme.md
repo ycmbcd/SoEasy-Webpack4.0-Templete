@@ -63,8 +63,8 @@ SoEasy-Webpack4.0-Templete
 │     ├─ images                 # 构建后的图片目录
 │     │  └─ panda_eb8547.png    # 构建后的测试图片文件
 │     └─ js                     # 构建后的JS目录
-│        ├─ main_056c80.js      # 构建后的JS目录
-│        └─ main_056c80.js.map  # 构建后的JS地图文件
+│        ├─ main_056c80.js      # 构建后的测试JS文件
+│        └─ main_056c80.js.map  # 构建后的测试JS地图文件
 ├─ favicon.ico                  # 图标文件
 ├─ index.html                   # 主页
 ├─ node_modules                 # 包目录
@@ -76,7 +76,7 @@ SoEasy-Webpack4.0-Templete
 │  │     ├─ panda.png           # Demo测试图片
 │  │     └─ phone.jpg           # Demo测试图片
 │  ├─ main.css                  # Demo测试样式
-│  └─ main.js                   # Demo测试JS
+│  └─ main.js                   # 入口文件
 ├─ webpack.common.js            # Webpack基础配置文件
 ├─ webpack.dev.js               # Webpack开发配置文件
 └─ webpack.prod.js              # Webpack生产配置文件
