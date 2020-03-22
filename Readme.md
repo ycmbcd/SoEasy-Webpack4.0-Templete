@@ -53,33 +53,35 @@ yarn run build
 
 ```bash
 SoEasy-Webpack4.0-Templete
-├─ .babelrc                     # babel配置文件
-├─ dist                         # 构建目录
-│  ├─ favicon.ico               # 构建后的图标文件
-│  ├─ index.html                # 构建后的主页
-│  └─ static                    # 构建后的静态目录
-│     ├─ css                    # 构建后的样式目录
-│     │  └─ main_021153.css     # 构建后的测试样式文件
-│     ├─ images                 # 构建后的图片目录
-│     │  └─ panda_eb8547.png    # 构建后的测试图片文件
-│     └─ js                     # 构建后的JS目录
-│        ├─ main_056c80.js      # 构建后的测试JS文件
-│        └─ main_056c80.js.map  # 构建后的测试JS地图文件
-├─ favicon.ico                  # 图标文件
-├─ index.html                   # 主页
-├─ node_modules                 # 包目录
-├─ package.json                 # 项目文件
-├─ src                          # 开发源码目录
-│  ├─ add.js                    # Demo测试文件
-│  ├─ assets                    # 开发资源目录
-│  │  └─ images                 # 开发图片目录
-│  │     ├─ panda.png           # Demo测试图片
-│  │     └─ phone.jpg           # Demo测试图片
-│  ├─ main.css                  # Demo测试样式
-│  └─ main.js                   # 入口文件
-├─ webpack.common.js            # Webpack基础配置文件
-├─ webpack.dev.js               # Webpack开发配置文件
-└─ webpack.prod.js              # Webpack生产配置文件
+├─ .babelrc                     #babel配置文件
+├─ dist                         #构建目录
+│  ├─ favicon.ico               #构建后的图标文件
+│  ├─ index.html                #构建后的主页
+│  └─ static                    #构建后的静态目录
+│     ├─ css                    #构建后的样式目录
+│     │  └─ main_021153.css     #构建后的测试样式文件
+│     ├─ images                 #构建后的图片目录
+│     │  └─ panda_eb8547.png    #构建后的测试图片文件
+│     └─ js                     #构建后的JS目录
+│        ├─ main_056c80.js      #构建后的测试JS文件
+│        └─ main_056c80.js.map  #构建后的测试JS地图文件
+├─ favicon.ico                  #图标文件
+├─ index.html                   #主页
+├─ node_modules                 #包目录
+├─ package.json                 #项目文件
+├─ src                          #开发源码目录
+│  ├─ add.js                    #Demo测试文件
+│  ├─ scss                      #Sass目录
+│  │  └─ custom.scss            #Demo测试Sass文件
+│  ├─ assets                    #开发资源目录
+│  │  └─ images                 #开发图片目录
+│  │     ├─ panda.png           #Demo测试图片
+│  │     └─ phone.jpg           #Demo测试图片
+│  ├─ main.css                  #Demo测试样式
+│  └─ main.js                   #入口文件
+├─ webpack.common.js            #Webpack基础配置文件
+├─ webpack.dev.js               #Webpack开发配置文件
+└─ webpack.prod.js              #Webpack生产配置文件
 ```
 
 # 特色
@@ -105,8 +107,9 @@ SoEasy-Webpack4.0-Templete
 
 # 功能
 
-- ES6 编译 ES5。
+- 支持 ES6 编译 ES5。
 - Js 文件压缩，sourse-map 分配。
+- 支持 Sass/Scss 编译。
 - CSS 样式分离、压缩。
 - CSS3 前缀自动补全。
 - 图片小于 10kb 进行 `base64` 转码.
