@@ -86,7 +86,7 @@ SoEasy-Webpack4.0-Templete
 
 # 特色
 
-- 配置文件分离，生产 `prodection` 模式、开发 `development` 模式，适合大中型应用开发。
+- 配置文件分离，生产 `production` 模式、开发 `development` 模式，适合大中型应用开发。
 - 配置项目清晰明了，适合初学者上手。
 - `/src` 文件夹自带 `Demo`，`yarn run dev` 后，会在浏览器打开一个 `Demo` 运行界面判断插件加载器是否正常运行。
 
@@ -94,7 +94,7 @@ SoEasy-Webpack4.0-Templete
 
 - webpack.coommon.js 公共配置文件
 - webpack.dev.js 开发 `development` 模式配置文件
-- webpack.prod.js 生产 `prodection` 模式配置文件
+- webpack.prod.js 生产 `production` 模式配置文件
 
 > 运行脚本配置： package.json
 
