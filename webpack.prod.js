@@ -30,7 +30,7 @@ module.exports = merge(common, {
                     },
                     'sass-loader'
                 ],
-                include: /src/,
+                // include: /src/,  // 取消注释后只支持 /src 文件打包
             }
         ]
     },

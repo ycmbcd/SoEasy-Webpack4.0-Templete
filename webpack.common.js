@@ -13,6 +13,13 @@ module.exports = {
                 }
             },
             {
+                test: /\.(eot|svg|ttf|woff|woff2)(\?\S*)?$/,
+                loader: 'file-loader',
+                options:{
+                    name: './static/fonts/[name]_[hash:6].[ext]',
+                }
+            },
+            {
                 test: /\.js$/,
                 exclude: /node_modules/,
                 use: {
