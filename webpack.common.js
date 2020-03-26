@@ -1,3 +1,5 @@
+const webpack = require('webpack');
+
 module.exports = {
     entry: './src/main.js',
     module:{
@@ -30,5 +32,11 @@ module.exports = {
                 }
             },
         ]
-    }    
+    },
+    plugins:[
+        new webpack.ProvidePlugin({
+            // $: 'jquery',    // 加载jQuery像这样
+            // jQuery: 'jquery'  // 加载jQuery或者像这样
+        })
+    ]
 };
