@@ -112,10 +112,13 @@ SoEasy-Webpack4.0-Templete
 - 支持 Sass/Scss 编译。
 - CSS 样式分离、压缩。
 - CSS3 前缀自动补全。
-- 图片小于 10kb 进行 `base64` 转码.
+- 图片小于 10kb 进行 `base64` 转码。
+- 支持字体文件的打包。
+- 支持模块自动加载。
 - 打包文件哈希值分配，便于部署更新。
 - 支持热更新「HMR」，默认端口：8080。
 - 默认支持 `favicon.ico` 打包。
+- 支持 `.editorconfig` 编辑器格式统一标准。
 
 # 许可
 MIT License
