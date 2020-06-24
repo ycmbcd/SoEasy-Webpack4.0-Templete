@@ -10,7 +10,7 @@ module.exports = {
           loader: 'url-loader',
           options: {
             limit: 1024 * 10,
-            name: './static/images/[name]_[hash:6].[ext]',
+            name: '/static/images/[name]_[hash:6].[ext]',
           }
         }
       },
@@ -18,7 +18,7 @@ module.exports = {
         test: /\.(eot|svg|ttf|woff|woff2)(\?\S*)?$/,
         loader: 'file-loader',
         options: {
-          name: './static/fonts/[name]_[hash:6].[ext]',
+          name: '/static/fonts/[name]_[hash:6].[ext]',
         }
       },
       {
