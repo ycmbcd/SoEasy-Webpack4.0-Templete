@@ -14,6 +14,23 @@ module.exports = merge(common, {
   module: {
     rules: [
       {
+        test: /\.(png|jpg|gif)$/,
+        use: {
+          loader: 'url-loader',
+          options: {
+            limit: 1024 * 10,
+            name: '/static/images/[name]_[hash:6].[ext]',
+          }
+        }
+      },
+      {
+        test: /\.(eot|svg|ttf|woff|woff2)(\?\S*)?$/,
+        loader: 'file-loader',
+        options: {
+          name: '/static/fonts/[name]_[hash:6].[ext]',
+        }
+      },
+      {
         test: /\.(sc|c|sa)ss$/,
         use: [
           MiniCssExtractPlugin.loader,
