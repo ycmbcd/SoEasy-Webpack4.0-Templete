@@ -19,7 +19,7 @@ module.exports = merge(common, {
           loader: 'url-loader',
           options: {
             limit: 1024 * 10,
-            name: '/static/images/[name]_[hash:6].[ext]',
+            name: './static/images/[name]_[hash:6].[ext]',
           }
         }
       },
@@ -27,8 +27,27 @@ module.exports = merge(common, {
         test: /\.(eot|svg|ttf|woff|woff2)(\?\S*)?$/,
         loader: 'file-loader',
         options: {
-          name: '/static/fonts/[name]_[hash:6].[ext]',
+          name: './static/fonts/[name]_[hash:6].[ext]',
         }
+      },
+      {
+        test: /\.styl/,
+        use: [
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+          {
+            loader: 'postcss-loader',
+            options: {
+              plugins: () => [
+                require('autoprefixer')({
+                  overrideBrowserslist: ['last 2 version', '>1%', 'ios 7']
+                })
+              ]
+            }
+          },
+          'stylus-loader'
+        ],
+        include: /src/,  // 取消注释后只支持 /src 文件打包
       },
       {
         test: /\.(sc|c|sa)ss$/,

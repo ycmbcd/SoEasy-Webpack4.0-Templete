@@ -110,6 +110,7 @@ SoEasy-Webpack4.0-Templete
 - 支持 ES6 编译 ES5。
 - Js 文件压缩，sourse-map 分配。
 - 支持 Sass/Scss 编译。
+- 支持 Stylus 编译。
 - CSS 样式分离、压缩。
 - CSS3 前缀自动补全。
 - 图片小于 10kb 进行 `base64` 转码。

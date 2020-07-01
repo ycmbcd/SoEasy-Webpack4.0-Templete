@@ -1,5 +1,6 @@
 import './main.css';
 import './scss/custom.scss';
+import './stylus/custom.styl';
 import add from './add.js';
 
 document.getElementById("app").innerHTML = `
@@ -9,6 +10,7 @@ document.getElementById("app").innerHTML = `
 <textarea id="base64Info"></textarea>
 <textarea id="es6Test"></textarea>
 <h3>如果这行是蓝色，则 Sass 编译成功。</h3>
+<h4>如果这行是绿色，则 Stylus 编译成功。</h4>
 `;
 add();
 
@@ -28,5 +30,5 @@ ${myPhone}`;
 // es6 test
 const es6Test = (a, b) => a + b;
 document.getElementById("es6Test").innerHTML = `ES6语法：(a, b) => a + b
-编译为： 
+编译为：
 ${es6Test}`;
