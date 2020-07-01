@@ -73,6 +73,8 @@ SoEasy-Webpack4.0-Templete
 │  ├─ add.js                    #Demo测试文件
 │  ├─ scss                      #Sass目录
 │  │  └─ custom.scss            #Demo测试Sass文件
+│  └─ stylus                    #Stylus目录
+│     └─ custom.styl            #Demo测试styl文件
 │  ├─ assets                    #开发资源目录
 │  │  └─ images                 #开发图片目录
 │  │     ├─ panda.png           #Demo测试图片
