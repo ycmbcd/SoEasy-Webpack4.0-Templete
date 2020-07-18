@@ -1,6 +1,6 @@
 # SoEasy-Webpack4.0-Templete
 
-v2.0版本之后，本项目暂停更新。侧重基于Vue模板开发，如果您是Vue.js技术栈，请转移至 SoEasy-Vue-Webpack-Templete 项目: https://github.com/ycmbcd/SoEasy-Vue-Webpack-Templete
+v2.0版本之后，本项目暂停更新维护，但不影响使用。现侧重基于Vue模板开发，如果您是Vue.js技术栈，请转移至 SoEasy-Vue-Webpack-Templete 项目: https://github.com/ycmbcd/SoEasy-Vue-Webpack-Templete
 
 # 使用
 
