@@ -1,5 +1,7 @@
 # SoEasy-Webpack4.0-Templete
 
+v2.0版本之后，本项目暂停更新。侧重基于Vue模板开发，如果您是Vue.js技术栈，请转移至 SoEasy-Vue-Webpack-Templete 项目: https://github.com/ycmbcd/SoEasy-Vue-Webpack-Templete
+
 # 使用
 
 > npm
@@ -46,8 +48,6 @@ yarn run build
 [Demo](https://ycmbcd.github.io/SoEasy-Webpack4.0-Templete/dist/)
 
 # 说明
-
-v2.0版本之后，本项目暂停更新。侧重基于Vue模板开发，如果您是Vue.js技术栈，请转移至 SoEasy-Vue-Webpack-Templete 项目。
 
 一款开箱即用的基于 `Webpack 4.0` 搭建的 `WebApp` 模板。
 
