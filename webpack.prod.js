@@ -50,7 +50,7 @@ module.exports = merge(common, {
         include: /src/,  // 取消注释后只支持 /src 文件打包
       },
       {
-        test: /\.(sc|c|sa)ss$/,
+        test: /\.css$/,
         use: [
           MiniCssExtractPlugin.loader,
           'css-loader',
@@ -64,7 +64,6 @@ module.exports = merge(common, {
               ]
             }
           },
-          'sass-loader'
         ],
         // include: /src/,  // 取消注释后只支持 /src 文件打包
       }

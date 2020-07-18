@@ -1,5 +1,4 @@
 import './main.css';
-import './scss/custom.scss';
 import './stylus/custom.styl';
 import add from './add.js';
 
@@ -9,7 +8,6 @@ document.getElementById("app").innerHTML = `
 <div id="base64Test"></div>
 <textarea id="base64Info"></textarea>
 <textarea id="es6Test"></textarea>
-<h3>如果这行是蓝色，则 Sass 编译成功。</h3>
 <h4>如果这行是绿色，则 Stylus 编译成功。</h4>
 `;
 add();

@@ -36,7 +36,7 @@ module.exports = merge(common, {
         loader:'style-loader!css-loader!stylus-loader'
       },
       {
-        test: /\.(sc|c|sa)ss$/,
+        test: /\.css$/,
         use: [
           'style-loader',
           'css-loader',
@@ -49,8 +49,7 @@ module.exports = merge(common, {
                 })
               ]
             }
-          },
-          'sass-loader'
+          }
         ]
       }
     ]
